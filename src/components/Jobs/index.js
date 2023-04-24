@@ -262,7 +262,6 @@ class Jobs extends Component {
         <div className="job-wrap">
           <div className="left-wrap">
             {this.renderItems('profile')}
-
             <hr className="hr" />
             <Filters
               salary={salary}
