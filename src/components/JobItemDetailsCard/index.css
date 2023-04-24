@@ -1,0 +1,28 @@
+.all-skills-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.skills-wrap {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  width: 33%;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.skills-img {
+  width: 100px;
+  height: 100px;
+}
+
+.skills-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
